@@ -25,4 +25,38 @@ Avant d'aller plus loin, il est important d'appréhender certaines notions liée
 
 * Si nous utilisons des prédicteurs autres que la série (comme les variables exogènes) pour prévoir, on parle de `prévision de séries temporelles multi-variées`.
 
+**Table des matières**
+
+1. [Analyse Fondamentale](#BasicAnalytics)
+    * [Préparation des données](#DataPreparation)
+    * [Visualisation des données](#DataVisualization)
+    * [Séparation des donnnées](#DataSplitting)
+    * [Décomposition des séries temporelles](#TimeSeriesDecomposition)
+
+2. [Mesures de Précision pour les prévisions des séries temporelles](#AccuracyMetrics)
+
+3. [Modélisation des séries chronologiques avec la méthode statistique](#TimeSeriesModelingwithStatisticalMethod)
+    * [Naive Forecast](#NaiveForecast)
+    * [Moyenne mobile exponentielle](#ExponentialMovingAverage)
+        * [Moyenne mobile exponentielle simple (SEMA)](#SimpleExponentialMovingAverage(SEMA))
+        * [Méthode de la moyenne mobile exponentielle Holt-Winters](#Holt-WintersMethod)
+    * [ARIMA Forecast](#ARIMAForecast)
+    * [SARIMA Forecast](#SARIMAForecast)
+    
+4. [Modélisation des séries temporelles avec le Deep Learning](#TimeSeriesModelingwithDeepLearning)
+    * [Prétraitement des données](#Preprocessing)
+    * [MLP](#MLP)
+        * [Modélisation](#ModelingMLP)
+        * [Formation](#TrainingMLP)
+        * [Evaluation](#EvaluationMLP)
+    * [LSTM](#LSTM)
+        * [Modélisation](#ModelingLSTM)
+        * [Formation](#TrainingLSTM)
+        * [Evaluation](#EvaluationLSTM)
+
+5. [Conclusion](#Conclusion)
+
+
+
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/asdjimespoir/Time_Series_Projet/main?labpath=Mini_Projet.ipynb)
