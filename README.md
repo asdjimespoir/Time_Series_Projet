@@ -3,7 +3,7 @@ Ventes de médicaments
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/asdjimespoir/Time_Series_Projet/main?labpath=Mini_Projet.ipynb)
 
-
+**Merci de lire très attentivement les commentaires sur le fichier `Mini_Projet.ipynb`afin de savoir les exigences liées à l'environnement de travail**
 
 ## Plan du travail
 
