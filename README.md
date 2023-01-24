@@ -1,6 +1,10 @@
 # Time_Series_Projet
 Ventes de médicaments
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/asdjimespoir/Time_Series_Projet/main?labpath=Mini_Projet.ipynb)
+
+
+
 ## Plan du travail
 
 Le Projet consiste à étudier la vente des médicaments et implémenter des modèles de prédictions pouvant permettre de préduire le comportement à l'avenir en fonction des comportements passés et actuels en utilisant des notions de séries temporelles.
@@ -55,8 +59,3 @@ Avant d'aller plus loin, il est important d'appréhender certaines notions liée
         * [Evaluation](#EvaluationLSTM)
 
 5. [Conclusion](#Conclusion)
-
-
-
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/asdjimespoir/Time_Series_Projet/main?labpath=Mini_Projet.ipynb)
